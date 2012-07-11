@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="jars/bin/jinput.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Client/jars/bin/natives"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="jars/bin/lwjgl_util.jar" sourcepath="/FPS/lib/src">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Client/jars/bin/natives"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="jars/bin/lwjgl.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Client/jars/bin/natives"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="jars/bin/sqlite-jdbc-3.7.2.jar"/>
+	<classpathentry kind="lib" path="D:/Pixelmon/git/Pixelmon/Client/jars/bin/minecraft.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

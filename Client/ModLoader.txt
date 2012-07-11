@@ -1,0 +1,65 @@
+Jun 15, 2012 9:17:04 PM net.minecraft.src.ModLoader init
+FINE: ModLoader 1.2.5 Initializing...
+Jun 15, 2012 9:17:04 PM net.minecraft.src.ModLoader readFromClassPath
+FINER: Adding mods from C:\Users\Alec\Java\Pixelmon\Client\bin
+Jun 15, 2012 9:17:04 PM net.minecraft.src.ModLoader readFromClassPath
+FINER: Directory found.
+Jun 15, 2012 9:17:04 PM net.minecraft.src.ModLoader setupProperties
+FINER: SPAWNER_ALLOW_ON_INVERTED set to true
+Jun 15, 2012 9:17:04 PM net.minecraft.src.ModLoader addMod
+FINE: Mod Initialized: "mod_MinecraftForge 3.1.3.105" from mod_MinecraftForge.class
+Jun 15, 2012 9:17:04 PM net.minecraft.src.ModLoader addOverride
+FINER: addOverride(/gui/items.png,/pixelmon/image/pokeball.png,38). 84 left.
+Jun 15, 2012 9:17:04 PM net.minecraft.src.ModLoader addOverride
+FINER: addOverride(/gui/items.png,/pixelmon/image/greatball.png,102). 83 left.
+Jun 15, 2012 9:17:04 PM net.minecraft.src.ModLoader addOverride
+FINER: addOverride(/gui/items.png,/pixelmon/image/ultraball.png,118). 82 left.
+Jun 15, 2012 9:17:04 PM net.minecraft.src.ModLoader addOverride
+FINER: addOverride(/gui/items.png,/pixelmon/image/masterball.png,119). 81 left.
+Jun 15, 2012 9:17:04 PM net.minecraft.src.ModLoader addOverride
+FINER: addOverride(/terrain.png,/pixelmon/block/healertop.png,168). 31 left.
+Jun 15, 2012 9:17:04 PM net.minecraft.src.ModLoader addOverride
+FINER: addOverride(/terrain.png,/pixelmon/block/healerbottom.png,169). 30 left.
+Jun 15, 2012 9:17:04 PM net.minecraft.src.ModLoader addOverride
+FINER: addOverride(/terrain.png,/pixelmon/block/healerside.png,170). 29 left.
+Jun 15, 2012 9:17:04 PM net.minecraft.src.ModLoader addOverride
+FINER: addOverride(/terrain.png,/pixelmon/block/healerfrontactive.png,171). 28 left.
+Jun 15, 2012 9:17:04 PM net.minecraft.src.ModLoader addOverride
+FINER: addOverride(/terrain.png,/pixelmon/block/healerfrontinactive.png,172). 27 left.
+Jun 15, 2012 9:17:04 PM net.minecraft.src.ModLoader addOverride
+FINER: addOverride(/gui/items.png,/pixelmon/image/pokechecker.png,120). 80 left.
+Jun 15, 2012 9:17:04 PM net.minecraft.src.ModLoader addOverride
+FINER: addOverride(/gui/items.png,/pixelmon/image/pokedex.png,134). 79 left.
+Jun 15, 2012 9:17:04 PM net.minecraft.src.ModLoader addOverride
+FINER: addOverride(/gui/items.png,/pixelmon/image/rarecandy.png,144). 78 left.
+Jun 15, 2012 9:17:04 PM net.minecraft.src.ModLoader addOverride
+FINER: addOverride(/gui/items.png,/pixelmon/image/potion.png,145). 77 left.
+Jun 15, 2012 9:17:04 PM net.minecraft.src.ModLoader addOverride
+FINER: addOverride(/gui/items.png,/pixelmon/image/coaldust.png,146). 76 left.
+Jun 15, 2012 9:17:04 PM net.minecraft.src.ModLoader addOverride
+FINER: addOverride(/gui/items.png,/pixelmon/image/Firestone.png,147). 75 left.
+Jun 15, 2012 9:17:04 PM net.minecraft.src.ModLoader addOverride
+FINER: addOverride(/gui/items.png,/pixelmon/image/Waterstone.png,148). 74 left.
+Jun 15, 2012 9:17:04 PM net.minecraft.src.ModLoader addOverride
+FINER: addOverride(/gui/items.png,/pixelmon/image/Moonstone.png,149). 73 left.
+Jun 15, 2012 9:17:04 PM net.minecraft.src.ModLoader addOverride
+FINER: addOverride(/gui/items.png,/pixelmon/image/Thunderstone.png,150). 72 left.
+Jun 15, 2012 9:17:04 PM net.minecraft.src.ModLoader addOverride
+FINER: addOverride(/gui/items.png,/pixelmon/image/Leafstone.png,152). 71 left.
+Jun 15, 2012 9:17:04 PM net.minecraft.src.ModLoader addOverride
+FINER: addOverride(/gui/items.png,/pixelmon/image/Thunderstone_Shard.png,160). 70 left.
+Jun 15, 2012 9:17:04 PM net.minecraft.src.ModLoader addOverride
+FINER: addOverride(/gui/items.png,/pixelmon/image/Leafstone_Shard.png,161). 69 left.
+Jun 15, 2012 9:17:04 PM net.minecraft.src.ModLoader addMod
+FINE: Mod Initialized: "mod_Pixelmon version 1.3 for 1.2.5" from mod_Pixelmon.class
+Jun 15, 2012 9:17:04 PM net.minecraft.src.forge.ForgeHooks <clinit>
+INFO: MinecraftForge v3.1.3.105 Initialized
+
+Jun 15, 2012 9:17:04 PM net.minecraft.src.ModLoader init
+FINE: Mod Loaded: "mod_MinecraftForge 3.1.3.105"
+Jun 15, 2012 9:17:05 PM net.minecraft.src.ModLoader addOverride
+FINER: addOverride(/terrain.png,/pixelmon/block/Pcside.png,173). 26 left.
+Jun 15, 2012 9:17:05 PM net.minecraft.src.ModLoader init
+FINE: Mod Loaded: "mod_Pixelmon version 1.3 for 1.2.5"
+Jun 15, 2012 9:17:05 PM net.minecraft.src.ModLoader addAllRenderers
+FINE: Initialized
