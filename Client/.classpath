@@ -17,7 +17,7 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="jars/bin/sqlite-jdbc-3.7.2.jar"/>
-	<classpathentry kind="lib" path="D:/Pixelmon/git/Pixelmon/Client/jars/bin/minecraft.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="jars/bin/minecraft.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
