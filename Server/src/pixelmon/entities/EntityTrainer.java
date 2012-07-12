@@ -104,6 +104,13 @@ public class EntityTrainer extends EntityLiving {
 				for (int i = 0; i < numMoves; i++) {
 					nbt.setInteger("PixelmonMovePP" + i, nbt.getInteger("PixelmonMovePPBase" + i));
 				}
+				nbt.setInteger("BattleAccuracy", 100);
+				nbt.setInteger("BattleEvasion", 100);
+				nbt.setInteger("BattleAttackModifier", 100);
+				nbt.setInteger("BattleDefenceModifier", 100);
+				nbt.setInteger("BattleSpecialAttackModifier", 100);
+				nbt.setInteger("BattleSpecialDefenceModifier", 100);
+				nbt.setInteger("BattleSpeedModifier", 100);
 			}
 		}
 	}

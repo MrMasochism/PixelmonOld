@@ -44,6 +44,7 @@ public class PlayerParticipant implements IBattleParticipant {
 	@Override
 	public void EndBattle(boolean didWin, IBattleParticipant foe) {
 		currentPixelmon.EndBattle();
+		currentPixelmon.getBattleStats().clearBattleStats();
 		ModLoader.getMinecraftServerInstance().configManager.sendPacketToPlayer(player.username, PacketCreator.createPacket(EnumPackets.BattleFinished, 0));
 	}
 
@@ -89,6 +90,7 @@ public class PlayerParticipant implements IBattleParticipant {
 	@Override
 	public void switchPokemon(IBattleParticipant participant2, int newPixelmonId) {
 		ChatHandler.sendChat(player, participant2.currentPokemon().getOwner(), "That's enough " + currentPixelmon.getName() + "!");
+		currentPixelmon.getBattleStats().clearBattleStats();
 		currentPixelmon.catchInPokeball();
 
 		mod_Pixelmon.pokeballManager.getPlayerStorage(currentPixelmon.getOwner()).retrieve((IHaveHelper) currentPixelmon.getIHaveHelper());
