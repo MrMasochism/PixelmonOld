@@ -679,4 +679,12 @@ public class PixelmonEntityHelper {
 			p.posZ = pos.zCoord;
 		}
 	}
+
+	private boolean isBeingCaught=false;
+	public boolean getIsBeingCaught() {
+		return isBeingCaught;
+	}
+	public void setIsBeingCaught(boolean value){
+		isBeingCaught = value;
+	}
 }

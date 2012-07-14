@@ -50,6 +50,10 @@ public class EntityEmptyPokeBall extends EntityThrowable {
 						spawnFailParticles();
 						return;
 					}
+					if (p.getIsBeingCaught())
+					{
+						return;
+					}
 					doCaptureCalc(p);
 					isWaiting = true;
 					motionX = motionZ = 0;
@@ -156,6 +160,7 @@ public class EntityEmptyPokeBall extends EntityThrowable {
 	}
 
 	private void catchPokemon() {
+		p.setIsBeingCaught(false);
 		if (canCatch) {
 			p.setTamed(true);
 			p.setOwner((EntityPlayer) thrower);

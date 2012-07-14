@@ -641,19 +641,28 @@ public class PixelmonEntityHelper {
 		}
 		return null;
 	}
-	
-	public void setPosition(Vec3D pos){
+
+	public void setPosition(Vec3D pos) {
 		if (pixelmon instanceof BaseEntityPixelmon) {
 			BaseEntityPixelmon p = (BaseEntityPixelmon) pixelmon;
 			p.posX = pos.xCoord;
 			p.posY = pos.yCoord;
 			p.posZ = pos.zCoord;
-		}
-		else if (pixelmon instanceof EntityWaterPixelmon) {
+		} else if (pixelmon instanceof EntityWaterPixelmon) {
 			EntityWaterPixelmon p = (EntityWaterPixelmon) pixelmon;
 			p.posX = pos.xCoord;
 			p.posY = pos.yCoord;
 			p.posZ = pos.zCoord;
 		}
+	}
+
+	private boolean isBeingCaught = false;
+
+	public boolean getIsBeingCaught() {
+		return isBeingCaught;
+	}
+
+	public void setIsBeingCaught(boolean value) {
+		isBeingCaught = value;
 	}
 }
