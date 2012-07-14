@@ -7,7 +7,7 @@ public class EntityTrainerBugCatcher extends EntityTrainer {
 
 	public EntityTrainerBugCatcher(World par1World) {
 		super(par1World);
-		texture = "/pixelmon/image/BugCatcher.png";
+		texture = "/pixelmon/image/bugcatcher.png";
 		init();
 	}
 
