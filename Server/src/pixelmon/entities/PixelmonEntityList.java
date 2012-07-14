@@ -46,6 +46,7 @@ import pixelmon.Pokemon.EntityMagikarp;
 import pixelmon.Pokemon.EntityMagnemite;
 import pixelmon.Pokemon.EntityMagneton;
 import pixelmon.Pokemon.EntityMankey;
+import pixelmon.Pokemon.EntityMareep;
 import pixelmon.Pokemon.EntityMetapod;
 import pixelmon.Pokemon.EntityMew;
 import pixelmon.Pokemon.EntityMiltank;
@@ -263,11 +264,15 @@ public class PixelmonEntityList {
 		addMapping(EntityMagneton.class, "Magneton", PixelmonIDList.magnetonId, ClassType.Pixelmon);
 		addMapping(EntityVibrava.class, "Vibrava", PixelmonIDList.vibravaId, ClassType.Pixelmon);
 		addMapping(EntityDratini.class, "Dratini", PixelmonIDList.dratiniId, ClassType.Pixelmon);
-		//		addMapping(EntityMareep.class, "Mareep", mod_Pixelmon.mareepId, new RenderPixelmon(new ModelMareepUnshaven(), 0.5F), ClassType.Pixelmon);
+		addMapping(EntityMareep.class, "Mareep", PixelmonIDList.mareepId, ClassType.Pixelmon);
 
 		
 		addMapping(EntityTrainerYoungster.class, "Youngster", TrainerIDList.trainerYoungsterId, ClassType.Trainer);
 		addMapping(EntityTrainerYoungster02.class, "Youngster2", TrainerIDList.trainerYoungster2Id, ClassType.Trainer);
+	//	addMapping(EntityTrainerBugCatcher.class, "BugCatcher", TrainerIDList.trainerBugCatcherId, Classtype.Trainer);
+	
+	
+	
 	}
 
 	public static void registerEntities() {
