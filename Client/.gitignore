@@ -2,4 +2,4 @@
 /ModLoader.txt.1
 /options.txt
 /stats
-/resources
+/resources/*.class

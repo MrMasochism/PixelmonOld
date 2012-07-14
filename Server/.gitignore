@@ -12,4 +12,4 @@
 /server.log
 /server.log.1
 /server.properties
-/white-list.txt
+/white-list.txt/*.class
