@@ -10,7 +10,6 @@ import net.minecraft.src.BiomeGenBase;
 import net.minecraft.src.CustomSpawner;
 import net.minecraft.src.Entity;
 import net.minecraft.src.EntityEggInfo;
-import net.minecraft.src.EntityList;
 import net.minecraft.src.EntityLiving;
 import net.minecraft.src.EnumCreatureType;
 import net.minecraft.src.ModLoader;
@@ -219,8 +218,8 @@ public class PixelmonEntityList {
 		addMapping(EntityZubat.class, "Zubat", PixelmonIDList.zubatId, new RenderPixelmon(new ModelZubat(), 0.5F), ClassType.Pixelmon);
 		addMapping(EntityMagneton.class, "Magneton", PixelmonIDList.magnetonId, new RenderPixelmon(new ModelMagneton(), 0.5F), ClassType.Pixelmon);
 		addMapping(EntityVibrava.class, "Vibrava", PixelmonIDList.vibravaId, new RenderPixelmon(new ModelVibrava(), 0.5F), ClassType.Pixelmon);
-//		addMapping(EntityMareep.class, "Mareep", mod_Pixelmon.mareepId, new RenderPixelmon(new ModelMareepUnshaven(), 0.5F), ClassType.Pixelmon);
-		
+//		addMapping(EntityMareep.class, "Mareep", PixelmonIDList.mareepId, new RenderPixelmon(new ModelMareepUnshaven(), 0.5F), ClassType.Pixelmon);
+		addMapping(EntityDratini.class, "Dratini", PixelmonIDList.dratiniId, new RenderFreeWaterPixelmon(new ModelDratini(), 0.5F), ClassType.Pixelmon);
 		
 		addMapping(EntityTrainerYoungster.class, "Youngster", TrainerIDList.trainerYoungsterId, new RenderTrainer(new ModelYoungster(), 0.5F), ClassType.Trainer);
 		addMapping(EntityTrainerYoungster02.class, "Youngster2", TrainerIDList.trainerYoungster2Id, new RenderTrainer(new ModelYoungster02(), 0.5F), ClassType.Trainer);

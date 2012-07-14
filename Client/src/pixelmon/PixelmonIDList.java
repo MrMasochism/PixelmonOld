@@ -65,6 +65,8 @@ public class PixelmonIDList {
 	public static int solrockId;
 	public static int lunatoneId;
 
+	
+	
 	public static int i=0;
 	public static void load(Configuration configuration) {
 		abraId = Integer.parseInt(configuration.getOrCreateIntProperty("Abra", "pokemon", i++).value);
@@ -124,6 +126,7 @@ public class PixelmonIDList {
 		dratiniId = Integer.parseInt(configuration.getOrCreateIntProperty("Dratini", "pokemon", i++).value);
 		magnetonId = Integer.parseInt(configuration.getOrCreateIntProperty("Magneton", "pokemon", i++).value);
 		vibravaId = Integer.parseInt(configuration.getOrCreateIntProperty("Vibrava", "pokemon", i++).value);
-		mareepId = Integer.parseInt(configuration.getOrCreateIntProperty("Mareep", "pokemon", i++).value);
+		mareepId = Integer.parseInt(configuration.getOrCreateIntProperty("Mareep", "pokemon", i++).value);	
+		dratiniId = Integer.parseInt(configuration.getOrCreateIntProperty("Dratini", "pokemon", i++).value);
 	}
 }
