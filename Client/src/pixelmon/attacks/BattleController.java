@@ -173,6 +173,7 @@ public class BattleController {
 			else
 				pixelmon1MovesFirst = true;
 		}
+		System.out.println("1Speed=" + participant1.currentPokemon().getStats().Speed * participant1.currentPokemon().getBattleStats().SpeedModifier + " 2Speed=" + participant2.currentPokemon().getStats().Speed * participant2.currentPokemon().getBattleStats().SpeedModifier + " 1movesFirst=" + pixelmon1MovesFirst);
 	}
 
 	boolean pixelmon1CanAttack = true;
