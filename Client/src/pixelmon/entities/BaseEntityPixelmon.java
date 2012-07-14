@@ -12,6 +12,7 @@ import pixelmon.gui.GuiLearnMove;
 import pixelmon.gui.GuiPokedex;
 import pixelmon.gui.GuiScreenPokeChecker;
 
+import net.minecraft.src.AxisAlignedBB;
 import net.minecraft.src.Block;
 import net.minecraft.src.DamageSource;
 import net.minecraft.src.Entity;
@@ -63,7 +64,6 @@ public abstract class BaseEntityPixelmon extends EntityTameable implements IHave
 		targetTasks.addTask(1, new EntityAIHurtByTarget(this, false));
 		pokemonId = -1;
 		getNavigator().setAvoidsWater(true);
-		setSize(0.5f, 0.5f);
 		aggression = rand.nextInt(11) - 5;
 	}
 
@@ -81,7 +81,7 @@ public abstract class BaseEntityPixelmon extends EntityTameable implements IHave
 			type.add(stats.BaseStats.Type2);
 
 		helper.getLvl();
-		setSize(stats.BaseStats.Height, width);
+		setSize(stats.BaseStats.Height + hoverHeight, width);
 	}
 
 	BattleController bc;
@@ -362,7 +362,7 @@ public abstract class BaseEntityPixelmon extends EntityTameable implements IHave
 				if (par444 < litLevel)
 					worldObj.setLightValue(EnumSkyBlock.Block, par11, par22, par33, litLevel);
 			}
-		}
+		}		
 		super.onUpdate();
 	}
 

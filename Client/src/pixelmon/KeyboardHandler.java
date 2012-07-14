@@ -2,6 +2,7 @@ package pixelmon;
 
 import java.util.Random;
 
+import pixelmon.attacks.BattleRegistry;
 import pixelmon.comm.EnumPackets;
 import pixelmon.comm.PacketCreator;
 import pixelmon.entities.EntityPokeBall;
@@ -58,6 +59,10 @@ public class KeyboardHandler {
 					IHaveHelper pixelmon = mod_Pixelmon.pokeballManager.getPlayerStorage(mc.thePlayer).getAlreadyExists(
 							mod_Pixelmon.pokeballManager.getPlayerStorage(mc.thePlayer).getIDFromPosition(mod_Pixelmon.pixelmonOverlay.selectedPixelmon),
 							mc.theWorld);
+					if (mod_Pixelmon.battleRegistry.pokemonInBattle(pixelmon)){
+						ModLoader.getMinecraftInstance().thePlayer.sendChatMessage(pixelmon.getHelper().getName() + " is in a battle!");
+						return;
+					}
 					if (pixelmon == null) {
 						return;
 					}

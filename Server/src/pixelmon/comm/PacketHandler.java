@@ -59,6 +59,11 @@ public class PacketHandler implements IConnectionHandler, IPacketHandler {
 					ChatHandler.sendChat(player, (flag ? nbt.getString("Name") : nbt.getString("Nickname")) + " is unable to battle!");
 				} else if (mod_Pixelmon.pokeballManager.getPlayerStorage(player).EntityAlreadyExists(pokemonId, player.worldObj)) {
 					IHaveHelper pixelmon = mod_Pixelmon.pokeballManager.getPlayerStorage(player).getAlreadyExists(pokemonId, player.worldObj);
+					if (mod_Pixelmon.battleRegistry.pokemonInBattle(pixelmon))
+					{
+						ChatHandler.sendChat(player, pixelmon.getHelper().getName() + " is in a battle!");
+						return;
+					}
 					if (pixelmon == null) {
 						return;
 					}

@@ -2,6 +2,8 @@ package pixelmon.attacks;
 
 import java.util.ArrayList;
 
+import pixelmon.entities.IHaveHelper;
+
 public class BattleRegistry {
 	private ArrayList<BattleController> battleList;
 	
@@ -38,5 +40,13 @@ public class BattleRegistry {
 		for(BattleController bc: battleList){
 			bc.update();
 		}
+	}
+	
+	public boolean pokemonInBattle(IHaveHelper pixelmon) {
+		for(BattleController bc:battleList){
+			if (bc.participant1.currentPokemon() == pixelmon.getHelper() || bc.participant2.currentPokemon() == pixelmon.getHelper())
+				return true;
+		}
+		return false;
 	}
 }
