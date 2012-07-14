@@ -218,11 +218,12 @@ public class PixelmonEntityList {
 		addMapping(EntityZubat.class, "Zubat", PixelmonIDList.zubatId, new RenderPixelmon(new ModelZubat(), 0.5F), ClassType.Pixelmon);
 		addMapping(EntityMagneton.class, "Magneton", PixelmonIDList.magnetonId, new RenderPixelmon(new ModelMagneton(), 0.5F), ClassType.Pixelmon);
 		addMapping(EntityVibrava.class, "Vibrava", PixelmonIDList.vibravaId, new RenderPixelmon(new ModelVibrava(), 0.5F), ClassType.Pixelmon);
-//		addMapping(EntityMareep.class, "Mareep", PixelmonIDList.mareepId, new RenderPixelmon(new ModelMareepUnshaven(), 0.5F), ClassType.Pixelmon);
+		addMapping(EntityMareep.class, "Mareep", PixelmonIDList.mareepId, new RenderPixelmon(new ModelMareep(), 0.5F), ClassType.Pixelmon);
 		addMapping(EntityDratini.class, "Dratini", PixelmonIDList.dratiniId, new RenderFreeWaterPixelmon(new ModelDratini(), 0.5F), ClassType.Pixelmon);
 		
 		addMapping(EntityTrainerYoungster.class, "Youngster", TrainerIDList.trainerYoungsterId, new RenderTrainer(new ModelYoungster(), 0.5F), ClassType.Trainer);
 		addMapping(EntityTrainerYoungster02.class, "Youngster2", TrainerIDList.trainerYoungster2Id, new RenderTrainer(new ModelYoungster02(), 0.5F), ClassType.Trainer);
+	//	addMapping(EntityTrainerBugCatcher.class, "BugCatcher", TrainerIDList.trainerBugCatcherId, new RenderTrainer(new ModelBugCatcher(), 0.5F), Classtype.Trainer);
 	}
 
 	public static void registerEntities() {
