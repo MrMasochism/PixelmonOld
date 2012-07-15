@@ -126,6 +126,7 @@ public class PixelmonIDList {
 		vibravaId = Integer.parseInt(configuration.getOrCreateIntProperty("Vibrava", "pokemon", i++).value);
 		mareepId = Integer.parseInt(configuration.getOrCreateIntProperty("Mareep", "pokemon", i++).value);
 		dratiniId = Integer.parseInt(configuration.getOrCreateIntProperty("Dratini", "pokemon", i++).value);
-	
+		solrockId = Integer.parseInt(configuration.getOrCreateIntProperty("Solrock", "pokemon", i++).value);
+		
 	}
 }

@@ -63,6 +63,7 @@ import pixelmon.Pokemon.EntityRattata;
 import pixelmon.Pokemon.EntitySandile;
 import pixelmon.Pokemon.EntitySeaking;
 import pixelmon.Pokemon.EntitySnorlax;
+import pixelmon.Pokemon.EntitySolrock;
 import pixelmon.Pokemon.EntitySquirtle;
 import pixelmon.Pokemon.EntityStarmie;
 import pixelmon.Pokemon.EntityStaryu;
@@ -265,7 +266,7 @@ public class PixelmonEntityList {
 		addMapping(EntityVibrava.class, "Vibrava", PixelmonIDList.vibravaId, ClassType.Pixelmon);
 		addMapping(EntityDratini.class, "Dratini", PixelmonIDList.dratiniId, ClassType.Pixelmon);
 		addMapping(EntityMareep.class, "Mareep", PixelmonIDList.mareepId, ClassType.Pixelmon);
-
+		addMapping(EntitySolrock.class, "Solrock", PixelmonIDList.solrockId, ClassType.Pixelmon);
 		
 		addMapping(EntityTrainerYoungster.class, "Youngster", TrainerIDList.trainerYoungsterId, ClassType.Trainer);
 		addMapping(EntityTrainerYoungster02.class, "Youngster2", TrainerIDList.trainerYoungster2Id, ClassType.Trainer);
