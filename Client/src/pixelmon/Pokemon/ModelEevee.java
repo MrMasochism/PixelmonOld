@@ -167,6 +167,12 @@ public class ModelEevee extends ModelBase
   {
     super.setRotationAngles(f, f1, f2, f3, f4, f5);
     
+    Head.rotateAngleX = f4 / 57.29578F;
+    Head.rotateAngleY = f3 / 57.29578F;
+    rightear.rotateAngleX = f4 / 57.29578F;
+    rightear.rotateAngleY = f3 / 57.29578F;
+    leftear.rotateAngleY = f4 / 2F;
+    leftear.rotateAngleX = f3 / 57.29578F;
     Leg1.rotateAngleX = MathHelper.cos(f * 0.6662F) * 1.4F * f1;
     Leg2.rotateAngleX = MathHelper.cos(f * 0.6662F + (float)Math.PI) * 1.4F * f1;
     Leg1.rotateAngleY = 0.0F;
