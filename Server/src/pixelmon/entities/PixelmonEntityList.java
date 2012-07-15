@@ -269,7 +269,7 @@ public class PixelmonEntityList {
 		
 		addMapping(EntityTrainerYoungster.class, "Youngster", TrainerIDList.trainerYoungsterId, ClassType.Trainer);
 		addMapping(EntityTrainerYoungster02.class, "Youngster2", TrainerIDList.trainerYoungster2Id, ClassType.Trainer);
-	//	addMapping(EntityTrainerBugCatcher.class, "BugCatcher", TrainerIDList.trainerBugCatcherId, Classtype.Trainer);
+        addMapping(EntityTrainerBugCatcher.class, "BugCatcher", TrainerIDList.trainerBugCatcherId, Classtype.Trainer);
 	
 	
 	
