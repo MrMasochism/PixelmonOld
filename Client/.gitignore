@@ -3,3 +3,5 @@
 /options.txt
 /stats
 /resources/*.class
+/bin
+/resources
