@@ -55,10 +55,10 @@ public class TileEntityPokemonHealer extends TileEntity implements IInventory {
 		}
 		return i;*/
 		NBTTagCompound[] a = mod_Pixelmon.pokeballManager.getPlayerStorage(ModLoader.getMinecraftInstance().thePlayer).getList();
-		for(int i1 = a.length - 1; i1 >= 0; i1--)
+		for(int i1 = a.length-1; i1 >= 0; i1--)
 		{
 			if(a[i1] != null)
-				if(a[i1].getShort("Health") < a[i1].getInteger("StatsHP"))
+				if(a[i1].getShort("Health") < a[i1].getInteger("StatsHP") || a[i1].getBoolean("IsFainted"))
 				{
 					return a[i1];
 				}
