@@ -42,6 +42,7 @@ import pixelmon.Pokemon.EntityIvysaur;
 import pixelmon.Pokemon.EntityJigglypuff;
 import pixelmon.Pokemon.EntityJolteon;
 import pixelmon.Pokemon.EntityKrokorok;
+import pixelmon.Pokemon.EntityLunatone;
 import pixelmon.Pokemon.EntityMagikarp;
 import pixelmon.Pokemon.EntityMagnemite;
 import pixelmon.Pokemon.EntityMagneton;
@@ -63,6 +64,7 @@ import pixelmon.Pokemon.EntityRattata;
 import pixelmon.Pokemon.EntitySandile;
 import pixelmon.Pokemon.EntitySeaking;
 import pixelmon.Pokemon.EntitySnorlax;
+import pixelmon.Pokemon.EntitySolrock;
 import pixelmon.Pokemon.EntitySquirtle;
 import pixelmon.Pokemon.EntityStarmie;
 import pixelmon.Pokemon.EntityStaryu;
@@ -265,7 +267,12 @@ public class PixelmonEntityList {
 		addMapping(EntityVibrava.class, "Vibrava", PixelmonIDList.vibravaId, ClassType.Pixelmon);
 		addMapping(EntityDratini.class, "Dratini", PixelmonIDList.dratiniId, ClassType.Pixelmon);
 		addMapping(EntityMareep.class, "Mareep", PixelmonIDList.mareepId, ClassType.Pixelmon);
-
+		addMapping(EntityLunatone.class, "Lunatone", PixelmonIDList.lunatoneId, ClassType.Pixelmon);
+		addMapping(EntitySolrock.class, "Solrock", PixelmonIDList.solrockId, ClassType.Pixelmon);
+		//addMapping(EntityTentacool.class, "Tentacool", PixelmonIDList.tentacoolId, ClassType.Pixelmon);
+		//addMapping(EntityTentacruel.class, "Tentacruel", PixelmonIDList.tentacruelId, ClassType.Pixelmon);
+		
+		
 		
 		addMapping(EntityTrainerYoungster.class, "Youngster", TrainerIDList.trainerYoungsterId, ClassType.Trainer);
 		addMapping(EntityTrainerYoungster02.class, "Youngster2", TrainerIDList.trainerYoungster2Id, ClassType.Trainer);
