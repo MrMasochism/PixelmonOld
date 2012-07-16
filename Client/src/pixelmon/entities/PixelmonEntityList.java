@@ -220,6 +220,11 @@ public class PixelmonEntityList {
 		addMapping(EntityVibrava.class, "Vibrava", PixelmonIDList.vibravaId, new RenderPixelmon(new ModelVibrava(), 0.5F), ClassType.Pixelmon);
 		addMapping(EntityMareep.class, "Mareep", PixelmonIDList.mareepId, new RenderPixelmon(new ModelMareep(), 0.5F), ClassType.Pixelmon);
 		addMapping(EntityDratini.class, "Dratini", PixelmonIDList.dratiniId, new RenderFreeWaterPixelmon(new ModelDratini(), 0.5F), ClassType.Pixelmon);
+		addMapping(EntityLunatone.class, "Lunatone", PixelmonIDList.lunatoneId, new RenderPixelmon(new ModelLunatone(), 0.5F), ClassType.Pixelmon);
+		addMapping(EntitySolrock.class, "Solrock", PixelmonIDList.solrockId, new RenderPixelmon(new ModelSolrock(), 0.5F), ClassType.Pixelmon);
+		//addMapping(EntityTentacool.class, "Tentacool", PixelmonIDList.dratiniId, new RenderFreeWaterPixelmon(new ModelTentacool(), 0.5F), ClassType.Pixelmon);
+		//addMapping(EntityTentacruel.class, "Tentacruel", PixelmonIDList.tentacruelId, new RenderFreeWaterPixelmon(new ModelTentacruel(), 0.5F), ClassType.Pixelmon);
+		
 		
 		addMapping(EntityTrainerYoungster.class, "Youngster", TrainerIDList.trainerYoungsterId, new RenderTrainer(new ModelYoungster(), 0.5F), ClassType.Trainer);
 		addMapping(EntityTrainerYoungster02.class, "Youngster2", TrainerIDList.trainerYoungster2Id, new RenderTrainer(new ModelYoungster02(), 0.5F), ClassType.Trainer);
