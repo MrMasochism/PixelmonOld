@@ -15,7 +15,7 @@ import net.minecraft.src.MathHelper;
 import net.minecraft.src.ModelBase;
 import net.minecraft.src.ModelRenderer;
 
-import com.sun.xml.internal.stream.Entity;
+import net.minecraft.src.Entity;
 
 public class ModelVulpix extends ModelBase
 {
