@@ -72,7 +72,6 @@ public class ModelVulpix extends ModelBase
       Mane.setTextureSize(64, 32);
       Mane.mirror = true;
       setRotation(Mane, 1.570796F, 0F, 0F);
-      Leg1.mirror = true;
       Leg1 = new ModelRenderer(this, 18, 22);
       Leg1.addBox(-1F, 0F, -1F, 2, 5, 2);
       Leg1.setRotationPoint(-1.1F, 19F, 3F);
@@ -86,7 +85,6 @@ public class ModelVulpix extends ModelBase
       Leg2.setTextureSize(64, 32);
       Leg2.mirror = true;
       setRotation(Leg2, 0F, 0F, 0F);
-      Leg3.mirror = true;
       Leg3 = new ModelRenderer(this, 18, 22);
       Leg3.addBox(-1F, 0F, -1F, 2, 5, 2);
       Leg3.setRotationPoint(-1.1F, 19F, -4F);
