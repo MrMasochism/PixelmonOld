@@ -6,6 +6,7 @@
 package pixelmon.Pokemon;
 
 import net.minecraft.src.Entity;
+import net.minecraft.src.MathHelper;
 import net.minecraft.src.ModelBase;
 import net.minecraft.src.ModelRenderer;
 
@@ -301,6 +302,16 @@ public class ModelVulpix extends ModelBase
   public void setRotationAngles(float f, float f1, float f2, float f3, float f4, float f5)
   {
     super.setRotationAngles(f, f1, f2, f3, f4, f5);
+    
+    
+    Leg1.rotateAngleX = MathHelper.cos(f * 0.6662F) * 0.4F * f1;
+    Leg2.rotateAngleX = MathHelper.cos(f * 0.6662F + (float)Math.PI) * 0.4F * f1;
+    Leg1.rotateAngleY = 0.0F;
+    Leg2.rotateAngleY = 0.0F;
+    Leg4.rotateAngleX = MathHelper.cos(f * 0.6662F) * 1.4F * f1;
+    Leg3.rotateAngleX = MathHelper.cos(f * 0.6662F + (float)Math.PI) * 0.4F * f1;
+    Leg4.rotateAngleY = 0.0F;
+    Leg3.rotateAngleY = 0.0F;
   }
 
 }
